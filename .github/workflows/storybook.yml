@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: "🔧 setup node"
-        uses: actions/setup-node@v2.1.5
+        uses: actions/setup-node@latest
         with:
           node-version: 16
 
@@ -24,7 +24,7 @@ jobs:
         run: npm i -g npm@latest
 
       - name: "📦 install dependencies"
-        uses: bahmutov/npm-install@v1
+        uses: bahmutov/npm-install@latest
 
       - name: "📦 build Storybook"
         run: npx build-storybook
