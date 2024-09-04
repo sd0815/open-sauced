@@ -1,7 +1,7 @@
 import React from "react";
 import {GitPullRequestDraftIcon, GitPullRequestIcon, IssueOpenedIcon,
   IssueClosedIcon, GitPullRequestClosedIcon, GitMergeIcon} from "@primer/octicons-react";
-
+agggggg
 function CommitType({status, isDraft, mergeable, merged}) {
   switch (status) { // Check the status variable for OPEN/CLOSED/MERGED ISSUES
     case "OPEN":
